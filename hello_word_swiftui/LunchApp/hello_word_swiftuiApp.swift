@@ -19,8 +19,9 @@ struct hello_word_swiftuiApp: App {
 			//GaugeBootcamp()
 			//StateObjectbootcamp()
             //GeometryReaderBootcamp()
-            SwiftDataBootcamp()
-                .modelContainer(for: [Destination.self])
+            //SwiftDataBootcamp()
+                //.modelContainer(for: [Destination.self])
+            BindableBootcamp()
         }
     }
 }
