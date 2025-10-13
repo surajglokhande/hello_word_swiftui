@@ -21,6 +21,10 @@
 		4B3444AC2C809247009AD3D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF32B132B85BA1200875D8C /* Preview Assets.xcassets */; };
 		4BFAAFF02D4F3CFA000513F4 /* GaugeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAAFEF2D4F3CF7000513F4 /* GaugeBootcamp.swift */; };
 		4BFCF2892D6056FF000F5A31 /* StateObjectbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCF2882D6056FF000F5A31 /* StateObjectbootcamp.swift */; };
+		7391CE752E9CED9100DEC7E0 /* BindableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391CE742E9CED9100DEC7E0 /* BindableBootcamp.swift */; };
+		7391CE782E9CEE0C00DEC7E0 /* RenderObservableObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391CE772E9CEE0B00DEC7E0 /* RenderObservableObjectBootcamp.swift */; };
+		7391CE792E9CEE0C00DEC7E0 /* RenderObservableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391CE762E9CEE0B00DEC7E0 /* RenderObservableBootcamp.swift */; };
+		7391CE7B2E9CEE8C00DEC7E0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391CE7A2E9CEE8C00DEC7E0 /* Extension.swift */; };
 		7394CE5D2E49E5D9007DA24A /* SwiftDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394CE5C2E49E5D9007DA24A /* SwiftDataBootcamp.swift */; };
 		73E9A6BF2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9A6BE2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift */; };
 		B66B2F432DEAE67C008F2599 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B2F422DEAE67C008F2599 /* GeometryReaderBootcamp.swift */; };
@@ -43,6 +47,10 @@
 		4BF32B132B85BA1200875D8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BFAAFEF2D4F3CF7000513F4 /* GaugeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeBootcamp.swift; sourceTree = "<group>"; };
 		4BFCF2882D6056FF000F5A31 /* StateObjectbootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectbootcamp.swift; sourceTree = "<group>"; };
+		7391CE742E9CED9100DEC7E0 /* BindableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableBootcamp.swift; sourceTree = "<group>"; };
+		7391CE762E9CEE0B00DEC7E0 /* RenderObservableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderObservableBootcamp.swift; sourceTree = "<group>"; };
+		7391CE772E9CEE0B00DEC7E0 /* RenderObservableObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderObservableObjectBootcamp.swift; sourceTree = "<group>"; };
+		7391CE7A2E9CEE8C00DEC7E0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		7394CE5C2E49E5D9007DA24A /* SwiftDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataBootcamp.swift; sourceTree = "<group>"; };
 		73E9A6BE2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
 		B66B2F422DEAE67C008F2599 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
@@ -97,11 +105,15 @@
 				4BFAAFEF2D4F3CF7000513F4 /* GaugeBootcamp.swift */,
 				4BFCF2882D6056FF000F5A31 /* StateObjectbootcamp.swift */,
 				B66B2F422DEAE67C008F2599 /* GeometryReaderBootcamp.swift */,
+				7391CE762E9CEE0B00DEC7E0 /* RenderObservableBootcamp.swift */,
+				7391CE772E9CEE0B00DEC7E0 /* RenderObservableObjectBootcamp.swift */,
 				7394CE5C2E49E5D9007DA24A /* SwiftDataBootcamp.swift */,
+				7391CE742E9CED9100DEC7E0 /* BindableBootcamp.swift */,
 				4BF32B102B85BA1200875D8C /* Assets.xcassets */,
 				4BF32B122B85BA1200875D8C /* Preview Content */,
 				4B3C593E2C54B40F00FB3298 /* Protocol.swift */,
 				4B3C59402C54D22400FB3298 /* CommonView.swift */,
+				7391CE7A2E9CEE8C00DEC7E0 /* Extension.swift */,
 			);
 			path = hello_word_swiftui;
 			sourceTree = "<group>";
@@ -183,6 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7391CE782E9CEE0C00DEC7E0 /* RenderObservableObjectBootcamp.swift in Sources */,
+				7391CE792E9CEE0C00DEC7E0 /* RenderObservableBootcamp.swift in Sources */,
 				4B3444A12C80923B009AD3D3 /* DataModel.swift in Sources */,
 				73E9A6BF2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift in Sources */,
 				4B3444A22C80923B009AD3D3 /* ContentView.swift in Sources */,
@@ -190,9 +204,11 @@
 				4B3444A42C80923B009AD3D3 /* hello_word_swiftuiApp.swift in Sources */,
 				4B3444A52C80923B009AD3D3 /* TextBootcamp.swift in Sources */,
 				4B3444A62C80923B009AD3D3 /* ShapeBootcamp.swift in Sources */,
+				7391CE752E9CED9100DEC7E0 /* BindableBootcamp.swift in Sources */,
 				B66B2F432DEAE67C008F2599 /* GeometryReaderBootcamp.swift in Sources */,
 				4B3444A72C80923B009AD3D3 /* WeatherBootcamp.swift in Sources */,
 				4BFAAFF02D4F3CFA000513F4 /* GaugeBootcamp.swift in Sources */,
+				7391CE7B2E9CEE8C00DEC7E0 /* Extension.swift in Sources */,
 				7394CE5D2E49E5D9007DA24A /* SwiftDataBootcamp.swift in Sources */,
 				4B3444A82C80923B009AD3D3 /* PropertyWrapperBootcamp.swift in Sources */,
 				4BFCF2892D6056FF000F5A31 /* StateObjectbootcamp.swift in Sources */,
