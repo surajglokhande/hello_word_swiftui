@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0917282EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0917272EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift */; };
+		4B09172A2EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0917292EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift */; };
 		4B3444A12C80923B009AD3D3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3444952C80866E009AD3D3 /* DataModel.swift */; };
 		4B3444A22C80923B009AD3D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3444992C8086D6009AD3D3 /* ContentView.swift */; };
 		4B3444A32C80923B009AD3D3 /* DocumentGroupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3444972C8086A9009AD3D3 /* DocumentGroupApp.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B0917272EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyGlobalActor.swift; sourceTree = "<group>"; };
+		4B0917292EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencySendable.swift; sourceTree = "<group>"; };
 		4B0F18892C58F3A40037CF7F /* PropertyWrapperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperBootcamp.swift; sourceTree = "<group>"; };
 		4B3444952C80866E009AD3D3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		4B3444972C8086A9009AD3D3 /* DocumentGroupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentGroupApp.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				732623AF2EB8A0670066DBC0 /* SwiftConcurrencyActor.swift */,
+				4B0917272EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift */,
+				4B0917292EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -208,12 +214,14 @@
 			files = (
 				7391CE782E9CEE0C00DEC7E0 /* RenderObservableObjectBootcamp.swift in Sources */,
 				7391CE792E9CEE0C00DEC7E0 /* RenderObservableBootcamp.swift in Sources */,
+				4B0917282EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift in Sources */,
 				4B3444A12C80923B009AD3D3 /* DataModel.swift in Sources */,
 				732623B02EB8A0820066DBC0 /* SwiftConcurrencyActor.swift in Sources */,
 				73E9A6BF2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift in Sources */,
 				4B3444A22C80923B009AD3D3 /* ContentView.swift in Sources */,
 				4B3444A32C80923B009AD3D3 /* DocumentGroupApp.swift in Sources */,
 				4B3444A42C80923B009AD3D3 /* hello_word_swiftuiApp.swift in Sources */,
+				4B09172A2EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift in Sources */,
 				4B3444A52C80923B009AD3D3 /* TextBootcamp.swift in Sources */,
 				4B3444A62C80923B009AD3D3 /* ShapeBootcamp.swift in Sources */,
 				7391CE752E9CED9100DEC7E0 /* BindableBootcamp.swift in Sources */,
@@ -377,6 +385,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.greatAppdocument;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
@@ -408,6 +420,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.greatAppdocument;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
