@@ -21,7 +21,10 @@ struct hello_word_swiftuiApp: App {
             //GeometryReaderBootcamp()
             //SwiftDataBootcamp()
                 //.modelContainer(for: [Destination.self])
-            BindableBootcamp()
+            //RenderObservableBootcamp
+            //RenderObservableObjectBootcamp()
+            //BindableBootcamp()
+            SwiftConcurrencyActor()
         }
     }
 }
