@@ -23,6 +23,8 @@
 		4B3444AC2C809247009AD3D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF32B132B85BA1200875D8C /* Preview Assets.xcassets */; };
 		4BFAAFF02D4F3CFA000513F4 /* GaugeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAAFEF2D4F3CF7000513F4 /* GaugeBootcamp.swift */; };
 		4BFCF2892D6056FF000F5A31 /* StateObjectbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCF2882D6056FF000F5A31 /* StateObjectbootcamp.swift */; };
+		730C82052EBB1FB000F9F9AD /* SwiftConcurrencyRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C82042EBB1FAF00F9F9AD /* SwiftConcurrencyRefreshable.swift */; };
+		730C82072EBB231600F9F9AD /* SwiftConcurrencyLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C82062EBB231600F9F9AD /* SwiftConcurrencyLaunch.swift */; };
 		732623B02EB8A0820066DBC0 /* SwiftConcurrencyActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732623AF2EB8A0670066DBC0 /* SwiftConcurrencyActor.swift */; };
 		7391CE752E9CED9100DEC7E0 /* BindableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391CE742E9CED9100DEC7E0 /* BindableBootcamp.swift */; };
 		7391CE782E9CEE0C00DEC7E0 /* RenderObservableObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391CE772E9CEE0B00DEC7E0 /* RenderObservableObjectBootcamp.swift */; };
@@ -52,6 +54,8 @@
 		4BF32B132B85BA1200875D8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BFAAFEF2D4F3CF7000513F4 /* GaugeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeBootcamp.swift; sourceTree = "<group>"; };
 		4BFCF2882D6056FF000F5A31 /* StateObjectbootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectbootcamp.swift; sourceTree = "<group>"; };
+		730C82042EBB1FAF00F9F9AD /* SwiftConcurrencyRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyRefreshable.swift; sourceTree = "<group>"; };
+		730C82062EBB231600F9F9AD /* SwiftConcurrencyLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyLaunch.swift; sourceTree = "<group>"; };
 		732623AF2EB8A0670066DBC0 /* SwiftConcurrencyActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyActor.swift; sourceTree = "<group>"; };
 		7391CE742E9CED9100DEC7E0 /* BindableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableBootcamp.swift; sourceTree = "<group>"; };
 		7391CE762E9CEE0B00DEC7E0 /* RenderObservableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderObservableBootcamp.swift; sourceTree = "<group>"; };
@@ -137,8 +141,10 @@
 			isa = PBXGroup;
 			children = (
 				732623AF2EB8A0670066DBC0 /* SwiftConcurrencyActor.swift */,
+				730C82042EBB1FAF00F9F9AD /* SwiftConcurrencyRefreshable.swift */,
 				4B0917272EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift */,
 				4B0917292EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift */,
+				730C82062EBB231600F9F9AD /* SwiftConcurrencyLaunch.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -212,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730C82072EBB231600F9F9AD /* SwiftConcurrencyLaunch.swift in Sources */,
 				7391CE782E9CEE0C00DEC7E0 /* RenderObservableObjectBootcamp.swift in Sources */,
 				7391CE792E9CEE0C00DEC7E0 /* RenderObservableBootcamp.swift in Sources */,
 				4B0917282EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift in Sources */,
@@ -220,6 +227,7 @@
 				73E9A6BF2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift in Sources */,
 				4B3444A22C80923B009AD3D3 /* ContentView.swift in Sources */,
 				4B3444A32C80923B009AD3D3 /* DocumentGroupApp.swift in Sources */,
+				730C82052EBB1FB000F9F9AD /* SwiftConcurrencyRefreshable.swift in Sources */,
 				4B3444A42C80923B009AD3D3 /* hello_word_swiftuiApp.swift in Sources */,
 				4B09172A2EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift in Sources */,
 				4B3444A52C80923B009AD3D3 /* TextBootcamp.swift in Sources */,
