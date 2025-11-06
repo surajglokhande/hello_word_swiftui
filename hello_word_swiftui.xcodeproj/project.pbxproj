@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4B0917282EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0917272EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift */; };
 		4B09172A2EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0917292EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift */; };
+		4B2D60E12EBC53E300D1C0DE /* SwiftCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D60E02EBC53E300D1C0DE /* SwiftCombineBootcamp.swift */; };
+		4B2D60E32EBC540800D1C0DE /* SwiftCombinePublishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D60E22EBC540800D1C0DE /* SwiftCombinePublishers.swift */; };
 		4B3444A12C80923B009AD3D3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3444952C80866E009AD3D3 /* DataModel.swift */; };
 		4B3444A22C80923B009AD3D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3444992C8086D6009AD3D3 /* ContentView.swift */; };
 		4B3444A32C80923B009AD3D3 /* DocumentGroupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3444972C8086A9009AD3D3 /* DocumentGroupApp.swift */; };
@@ -37,6 +39,8 @@
 		4B0917272EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyGlobalActor.swift; sourceTree = "<group>"; };
 		4B0917292EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencySendable.swift; sourceTree = "<group>"; };
 		4B0F18892C58F3A40037CF7F /* PropertyWrapperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperBootcamp.swift; sourceTree = "<group>"; };
+		4B2D60E02EBC53E300D1C0DE /* SwiftCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCombineBootcamp.swift; sourceTree = "<group>"; };
+		4B2D60E22EBC540800D1C0DE /* SwiftCombinePublishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCombinePublishers.swift; sourceTree = "<group>"; };
 		4B3444952C80866E009AD3D3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		4B3444972C8086A9009AD3D3 /* DocumentGroupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentGroupApp.swift; sourceTree = "<group>"; };
 		4B3444992C8086D6009AD3D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +67,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		4B2D60DF2EBC53C400D1C0DE /* SwiftCombine */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D60E02EBC53E300D1C0DE /* SwiftCombineBootcamp.swift */,
+				4B2D60E22EBC540800D1C0DE /* SwiftCombinePublishers.swift */,
+			);
+			path = SwiftCombine;
+			sourceTree = "<group>";
+		};
 		4B3444922C8085E9009AD3D3 /* SwiftData */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +117,7 @@
 				4B3444922C8085E9009AD3D3 /* SwiftData */,
 				4B34449B2C80871D009AD3D3 /* LunchApp */,
 				732623B12EB8A08A0066DBC0 /* SwiftConcurrency */,
+				4B2D60DF2EBC53C400D1C0DE /* SwiftCombine */,
 				4BD65C612BC26D800062EABE /* TextBootcamp.swift */,
 				4BD65C672BC2B27B0062EABE /* ShapeBootcamp.swift */,
 				73E9A6BE2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift */,
@@ -214,6 +228,7 @@
 			files = (
 				7391CE782E9CEE0C00DEC7E0 /* RenderObservableObjectBootcamp.swift in Sources */,
 				7391CE792E9CEE0C00DEC7E0 /* RenderObservableBootcamp.swift in Sources */,
+				4B2D60E32EBC540800D1C0DE /* SwiftCombinePublishers.swift in Sources */,
 				4B0917282EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift in Sources */,
 				4B3444A12C80923B009AD3D3 /* DataModel.swift in Sources */,
 				732623B02EB8A0820066DBC0 /* SwiftConcurrencyActor.swift in Sources */,
@@ -232,6 +247,7 @@
 				7394CE5D2E49E5D9007DA24A /* SwiftDataBootcamp.swift in Sources */,
 				4B3444A82C80923B009AD3D3 /* PropertyWrapperBootcamp.swift in Sources */,
 				4BFCF2892D6056FF000F5A31 /* StateObjectbootcamp.swift in Sources */,
+				4B2D60E12EBC53E300D1C0DE /* SwiftCombineBootcamp.swift in Sources */,
 				4B3444A92C80923B009AD3D3 /* Protocol.swift in Sources */,
 				4B3444AA2C80923B009AD3D3 /* CommonView.swift in Sources */,
 			);
