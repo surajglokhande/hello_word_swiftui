@@ -24,7 +24,7 @@ struct hello_word_swiftuiApp: App {
             //RenderObservableBootcamp
             //RenderObservableObjectBootcamp()
             //BindableBootcamp()
-            SwiftConcurrencyLaunch()
+            SwiftConcurrencyBootcamp()
         }
     }
 }
