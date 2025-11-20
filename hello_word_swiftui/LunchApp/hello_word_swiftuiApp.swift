@@ -19,12 +19,11 @@ struct hello_word_swiftuiApp: App {
 			//GaugeBootcamp()
 			//StateObjectbootcamp()
             //GeometryReaderBootcamp()
-            //SwiftDataBootcamp()
-                //.modelContainer(for: [Destination.self])
             //RenderObservableBootcamp
             //RenderObservableObjectBootcamp()
             //BindableBootcamp()
-            SwiftConcurrencyBootcamp()
+            //SwiftConcurrencyBootcamp()
+            iTourSwiftDataBootCamp()
         }
     }
 }
