@@ -30,12 +30,17 @@
 		730C82052EBB1FB000F9F9AD /* SwiftConcurrencyRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C82042EBB1FAF00F9F9AD /* SwiftConcurrencyRefreshable.swift */; };
 		730C82072EBB231600F9F9AD /* SwiftConcurrencyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C82062EBB231600F9F9AD /* SwiftConcurrencyBootcamp.swift */; };
 		732623B02EB8A0820066DBC0 /* SwiftConcurrencyActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732623AF2EB8A0670066DBC0 /* SwiftConcurrencyActor.swift */; };
+		7364C6402ED1B2A9009AEA05 /* iBookSwiftDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7364C63F2ED1B2A9009AEA05 /* iBookSwiftDataBootCamp.swift */; };
+		7364C6432ED1B30B009AEA05 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7364C6422ED1B30B009AEA05 /* Book.swift */; };
+		7364C6452ED1B377009AEA05 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7364C6442ED1B377009AEA05 /* BookListView.swift */; };
+		7364C6492ED1B418009AEA05 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7364C6482ED1B418009AEA05 /* Destination.swift */; };
 		7391CE752E9CED9100DEC7E0 /* BindableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391CE742E9CED9100DEC7E0 /* BindableBootcamp.swift */; };
 		7391CE782E9CEE0C00DEC7E0 /* RenderObservableObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391CE772E9CEE0B00DEC7E0 /* RenderObservableObjectBootcamp.swift */; };
 		7391CE792E9CEE0C00DEC7E0 /* RenderObservableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391CE762E9CEE0B00DEC7E0 /* RenderObservableBootcamp.swift */; };
 		7391CE7B2E9CEE8C00DEC7E0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391CE7A2E9CEE8C00DEC7E0 /* Extension.swift */; };
 		7394CE5D2E49E5D9007DA24A /* DestinationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394CE5C2E49E5D9007DA24A /* DestinationList.swift */; };
 		73E9A6BF2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9A6BE2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift */; };
+		73F676E72ED1DEC700B81D9B /* BookAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F676E62ED1DEC700B81D9B /* BookAddView.swift */; };
 		B66B2F432DEAE67C008F2599 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B2F422DEAE67C008F2599 /* GeometryReaderBootcamp.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,12 +70,17 @@
 		730C82042EBB1FAF00F9F9AD /* SwiftConcurrencyRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyRefreshable.swift; sourceTree = "<group>"; };
 		730C82062EBB231600F9F9AD /* SwiftConcurrencyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyBootcamp.swift; sourceTree = "<group>"; };
 		732623AF2EB8A0670066DBC0 /* SwiftConcurrencyActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyActor.swift; sourceTree = "<group>"; };
+		7364C63F2ED1B2A9009AEA05 /* iBookSwiftDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBookSwiftDataBootCamp.swift; sourceTree = "<group>"; };
+		7364C6422ED1B30B009AEA05 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		7364C6442ED1B377009AEA05 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
+		7364C6482ED1B418009AEA05 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		7391CE742E9CED9100DEC7E0 /* BindableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableBootcamp.swift; sourceTree = "<group>"; };
 		7391CE762E9CEE0B00DEC7E0 /* RenderObservableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderObservableBootcamp.swift; sourceTree = "<group>"; };
 		7391CE772E9CEE0B00DEC7E0 /* RenderObservableObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderObservableObjectBootcamp.swift; sourceTree = "<group>"; };
 		7391CE7A2E9CEE8C00DEC7E0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		7394CE5C2E49E5D9007DA24A /* DestinationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationList.swift; sourceTree = "<group>"; };
 		73E9A6BE2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
+		73F676E62ED1DEC700B81D9B /* BookAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAddView.swift; sourceTree = "<group>"; };
 		B66B2F422DEAE67C008F2599 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +118,7 @@
 				7394CE5C2E49E5D9007DA24A /* DestinationList.swift */,
 				4B688A8E2ECF122500CCF308 /* EditDestination.swift */,
 				4B688A862ECEDA9B00CCF308 /* iTourSwiftDataBootCamp.swift */,
+				7364C6482ED1B418009AEA05 /* Destination.swift */,
 			);
 			path = SwiftData_2;
 			sourceTree = "<group>";
@@ -134,6 +145,7 @@
 				4B3444AD2C8095DE009AD3D3 /* hello-word-swiftui-Info.plist */,
 				4B3444922C8085E9009AD3D3 /* SwiftData_1 */,
 				4B688A852ECEDA4400CCF308 /* SwiftData_2 */,
+				7364C6412ED1B2B0009AEA05 /* SwiftData_3 */,
 				4B34449B2C80871D009AD3D3 /* LunchApp */,
 				732623B12EB8A08A0066DBC0 /* SwiftConcurrency */,
 				4B2D60DF2EBC53C400D1C0DE /* SwiftCombine */,
@@ -175,6 +187,17 @@
 				730C82062EBB231600F9F9AD /* SwiftConcurrencyBootcamp.swift */,
 			);
 			path = SwiftConcurrency;
+			sourceTree = "<group>";
+		};
+		7364C6412ED1B2B0009AEA05 /* SwiftData_3 */ = {
+			isa = PBXGroup;
+			children = (
+				7364C63F2ED1B2A9009AEA05 /* iBookSwiftDataBootCamp.swift */,
+				7364C6442ED1B377009AEA05 /* BookListView.swift */,
+				73F676E62ED1DEC700B81D9B /* BookAddView.swift */,
+				7364C6422ED1B30B009AEA05 /* Book.swift */,
+			);
+			path = SwiftData_3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +276,9 @@
 				4B688A8F2ECF122500CCF308 /* EditDestination.swift in Sources */,
 				4B0917282EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift in Sources */,
 				4B3444A12C80923B009AD3D3 /* DataModel.swift in Sources */,
+				7364C6452ED1B377009AEA05 /* BookListView.swift in Sources */,
 				732623B02EB8A0820066DBC0 /* SwiftConcurrencyActor.swift in Sources */,
+				7364C6432ED1B30B009AEA05 /* Book.swift in Sources */,
 				73E9A6BF2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift in Sources */,
 				4B3444A22C80923B009AD3D3 /* ContentView.swift in Sources */,
 				4B3444A32C80923B009AD3D3 /* DocumentGroupApp.swift in Sources */,
@@ -265,6 +290,7 @@
 				7391CE752E9CED9100DEC7E0 /* BindableBootcamp.swift in Sources */,
 				B66B2F432DEAE67C008F2599 /* GeometryReaderBootcamp.swift in Sources */,
 				4B3444A72C80923B009AD3D3 /* WeatherBootcamp.swift in Sources */,
+				7364C6402ED1B2A9009AEA05 /* iBookSwiftDataBootCamp.swift in Sources */,
 				4BFAAFF02D4F3CFA000513F4 /* GaugeBootcamp.swift in Sources */,
 				7391CE7B2E9CEE8C00DEC7E0 /* Extension.swift in Sources */,
 				7394CE5D2E49E5D9007DA24A /* DestinationList.swift in Sources */,
@@ -274,6 +300,8 @@
 				4B2D60E12EBC53E300D1C0DE /* SwiftCombineBootcamp.swift in Sources */,
 				4B3444A92C80923B009AD3D3 /* Protocol.swift in Sources */,
 				4B3444AA2C80923B009AD3D3 /* CommonView.swift in Sources */,
+				73F676E72ED1DEC700B81D9B /* BookAddView.swift in Sources */,
+				7364C6492ED1B418009AEA05 /* Destination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,8 +443,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,8 +477,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

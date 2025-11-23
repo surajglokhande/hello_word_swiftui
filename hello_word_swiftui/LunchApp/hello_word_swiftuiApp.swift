@@ -23,7 +23,8 @@ struct hello_word_swiftuiApp: App {
             //RenderObservableObjectBootcamp()
             //BindableBootcamp()
             //SwiftConcurrencyBootcamp()
-            iTourSwiftDataBootCamp()
+            //iTourSwiftDataBootCamp()
+            iBookSwiftDataBootCamp()
         }
     }
 }

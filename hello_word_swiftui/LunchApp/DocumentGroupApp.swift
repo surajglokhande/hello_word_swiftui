@@ -13,7 +13,7 @@
 //struct DocumentAppApp: App {
 //	var body: some Scene {
 //		DocumentGroup(editing: [ToDo.self, Author.self], contentType: UTType.todos) {
-//			ContentView()
+//			toDoSwiftDataBootCamp()
 //		} prepareDocument: { context in
 //			context.insert(Author(name: "Unknown"))
 //		}

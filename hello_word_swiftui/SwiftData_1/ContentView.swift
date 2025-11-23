@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
+struct toDoSwiftDataBootCamp: View {
 	@Environment(\.modelContext) var modelContext
 	@Query var todos: [ToDo]
 	@Query var authors: [Author]
