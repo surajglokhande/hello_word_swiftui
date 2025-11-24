@@ -15,25 +15,13 @@ struct BookAddView: View {
     @State private var title: String = ""
     @State private var author: String = ""
     @State private var summary: String = ""
-    @State private var rating: Int = 5
+    @State private var rating: Int = 0
     
     var body: some View {
         Form {
             TextField("Book title", text: $title)
             TextField("Book Author", text: $author)
-            TextField("Book Summery", text: $summary)
-
             HStack {
-                HStack {
-                    ForEach(0..<5, id: \.self) { index in
-                        Button {
-                            print(index)
-                            //rating = index
-                        } label: {
-                            //rating > index ? Image(systemName: "star.fill") : Image(systemName: "star")
-                        }
-                    }
-                }
                 Spacer()
                 Button("Create Book") {
                     let book = Book(
@@ -45,6 +33,7 @@ struct BookAddView: View {
                     context.insert(book)
                     dismiss()
                 }
+                .padding(5)
                 .buttonStyle(.borderedProminent)
             }
         }
