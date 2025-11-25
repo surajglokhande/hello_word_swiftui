@@ -10,8 +10,12 @@ import SwiftData
 
 struct iBookSwiftDataBootCamp: View {
     var body: some View {
-        iBookSwiftDataBootCamp()
+        BookListView()
             .modelContainer(for: [Book.self])
+    }
+    
+    init() {
+        print(URL.applicationSupportDirectory.path(percentEncoded: false))
     }
 }
 
