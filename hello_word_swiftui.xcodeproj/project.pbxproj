@@ -143,10 +143,10 @@
 			isa = PBXGroup;
 			children = (
 				4B3444AD2C8095DE009AD3D3 /* hello-word-swiftui-Info.plist */,
+				4B34449B2C80871D009AD3D3 /* LunchApp */,
 				4B3444922C8085E9009AD3D3 /* SwiftData_1 */,
 				4B688A852ECEDA4400CCF308 /* SwiftData_2 */,
 				7364C6412ED1B2B0009AEA05 /* SwiftData_3 */,
-				4B34449B2C80871D009AD3D3 /* LunchApp */,
 				732623B12EB8A08A0066DBC0 /* SwiftConcurrency */,
 				4B2D60DF2EBC53C400D1C0DE /* SwiftCombine */,
 				4BD65C612BC26D800062EABE /* TextBootcamp.swift */,
