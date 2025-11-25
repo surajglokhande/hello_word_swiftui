@@ -28,7 +28,7 @@ struct BookListView: View {
                         ForEach(books) { book in
                             NavigationLink(value: book) {
                                 HStack(spacing: 10) {
-                                    Image(systemName: "books.vertical.fill")
+                                    book.icon
                                     VStack(alignment: .leading) {
                                         Text(book.title)
                                             .font(.title3)
@@ -71,50 +71,12 @@ struct BookListView: View {
         }
         
     }
-    
-    func addSample() {
-        let book = Book(
-            title: "Swift programming",
-            author: "Suraj Lokhande",
-            rating: 4,
-            status: .onShelf
-        )
-        let book1 = Book(
-            title: "Kotlin programming",
-            author: "Suraj Lokhande",
-            rating: 2,
-            status: .onShelf
-        )
-        let book2 = Book(
-            title: "java programming",
-            author: "Suraj Lokhande",
-            rating: 1,
-            status: .onShelf
-        )
-        context.insert(book)
-        context.insert(book1)
-        context.insert(book2)
-    }
 }
 
 #Preview {
-    do {
-        let config = ModelConfiguration(isStoredInMemoryOnly: true)
-        let container = try ModelContainer(for: Book.self, configurations: config)
-        
-        let book = Book(
-            title: "Swift programming",
-            author: "Suraj Lokhande",
-            rating: 3,
-            status: .onShelf
-        )
-        
-        container.mainContext.insert(book)
-        
-        return BookListView()
-            .modelContainer(container)
-    }catch {
-        fatalError("view faied to load...")
-    }
-    
+    let preview = PreviewBooks(schema: Book.self)
+    let data = Book.sampleBooks
+    preview.addSample(examples: data)
+    return BookListView()
+        .modelContainer(preview.container)
 }

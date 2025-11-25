@@ -41,6 +41,7 @@
 		7391CE792E9CEE0C00DEC7E0 /* RenderObservableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391CE762E9CEE0B00DEC7E0 /* RenderObservableBootcamp.swift */; };
 		7391CE7B2E9CEE8C00DEC7E0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7391CE7A2E9CEE8C00DEC7E0 /* Extension.swift */; };
 		7394CE5D2E49E5D9007DA24A /* DestinationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394CE5C2E49E5D9007DA24A /* DestinationList.swift */; };
+		73D12CF72ED5B1C0002A3307 /* PreviewBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D12CF62ED5B1C0002A3307 /* PreviewBooks.swift */; };
 		73E9A6BF2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9A6BE2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift */; };
 		73F676E72ED1DEC700B81D9B /* BookAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F676E62ED1DEC700B81D9B /* BookAddView.swift */; };
 		B66B2F432DEAE67C008F2599 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B2F422DEAE67C008F2599 /* GeometryReaderBootcamp.swift */; };
@@ -83,6 +84,7 @@
 		7391CE772E9CEE0B00DEC7E0 /* RenderObservableObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderObservableObjectBootcamp.swift; sourceTree = "<group>"; };
 		7391CE7A2E9CEE8C00DEC7E0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		7394CE5C2E49E5D9007DA24A /* DestinationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationList.swift; sourceTree = "<group>"; };
+		73D12CF62ED5B1C0002A3307 /* PreviewBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewBooks.swift; sourceTree = "<group>"; };
 		73E9A6BE2E1ECD94007E0CC0 /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
 		73F676E62ED1DEC700B81D9B /* BookAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAddView.swift; sourceTree = "<group>"; };
 		B66B2F422DEAE67C008F2599 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				4B4296572ED43BED0033F6D0 /* BooKEditView.swift */,
 				4B4296592ED4476F0033F6D0 /* RatingView.swift */,
 				7364C6422ED1B30B009AEA05 /* Book.swift */,
+				73D12CF62ED5B1C0002A3307 /* PreviewBooks.swift */,
 			);
 			path = SwiftData_3;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				4B3444A72C80923B009AD3D3 /* WeatherBootcamp.swift in Sources */,
 				7364C6402ED1B2A9009AEA05 /* iBookSwiftDataBootCamp.swift in Sources */,
 				4BFAAFF02D4F3CFA000513F4 /* GaugeBootcamp.swift in Sources */,
+				73D12CF72ED5B1C0002A3307 /* PreviewBooks.swift in Sources */,
 				7391CE7B2E9CEE8C00DEC7E0 /* Extension.swift in Sources */,
 				7394CE5D2E49E5D9007DA24A /* DestinationList.swift in Sources */,
 				4B3444A82C80923B009AD3D3 /* PropertyWrapperBootcamp.swift in Sources */,
