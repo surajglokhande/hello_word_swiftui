@@ -9,65 +9,36 @@ import SwiftUI
 import SwiftData
 
 struct BookListView: View {
-    
-    @Environment(\.modelContext) private var context
-    @Query(sort: \Book.title) private var books: [Book]
+
     @State private var addNewBook: Bool = false
+    @State private var sortOrder: SortOrder = .status
+    @State private var searchText: String = ""
     
     var body: some View {
         NavigationStack {
-            Group {
-                if books.isEmpty {
-                    ContentUnavailableView(
-                        "Data Not Found!",
-                        systemImage: "exclamationmark.triangle.fill",
-                        description: Text("Data is available at this movement")
-                    )
-                }else {
-                    List {
-                        ForEach(books) { book in
-                            NavigationLink(value: book) {
-                                HStack(spacing: 10) {
-                                    book.icon
-                                    VStack(alignment: .leading) {
-                                        Text(book.title)
-                                            .font(.title3)
-                                        Text(book.author)
-                                            .font(.subheadline)
-                                        HStack {
-                                            if let rating = book.rating {
-                                                ForEach(1..<rating, id: \.self) { _ in
-                                                    Image(systemName: "star.fill")
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        .onDelete { indexSet in
-                            if let index = indexSet.first {
-                                context.delete(books[index])
-                            }
-                        }
+            Picker("Sort", selection: $sortOrder) {
+                ForEach(SortOrder.allCases) { item in
+                    Text("Sort by: \(item)").tag(item)
+                }
+            }
+            .buttonStyle(.bordered)
+            BookList(sortOrder: sortOrder, filter: searchText)
+                .searchable(text: $searchText, prompt: "Filter on title or author")
+                .navigationTitle("iBook")
+                .sheet(isPresented: $addNewBook, content: {
+                    BookAddView()
+                        .presentationDetents([.medium])
+                })
+                .navigationDestination(for: Book.self, destination: { book in
+                    BooKEditView(book: book)
+                })
+                .toolbar {
+                    Button {
+                        addNewBook.toggle()
+                    } label: {
+                        Image(systemName: "plus.circle.fill")
                     }
                 }
-            }
-            .navigationTitle("iBook")
-            .sheet(isPresented: $addNewBook, content: {
-                BookAddView()
-                    .presentationDetents([.medium])
-            })
-            .navigationDestination(for: Book.self, destination: { book in
-                BooKEditView(book: book)
-            })
-            .toolbar {
-                Button {
-                    addNewBook.toggle()
-                } label: {
-                    Image(systemName: "plus.circle.fill")
-                }
-            }
         }
         
     }
