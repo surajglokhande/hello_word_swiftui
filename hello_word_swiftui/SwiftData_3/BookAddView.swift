@@ -14,7 +14,7 @@ struct BookAddView: View {
 //    @Bindable var book: Book
     @State private var title: String = ""
     @State private var author: String = ""
-    @State private var summary: String = ""
+    @State private var synopsis: String = ""
     @State private var rating: Int = 0
     
     var body: some View {
@@ -27,7 +27,7 @@ struct BookAddView: View {
                     let book = Book(
                         title: title,
                         author: author,
-                        summary: summary,
+                        synopsis: synopsis,
                         rating: rating
                     )
                     context.insert(book)
