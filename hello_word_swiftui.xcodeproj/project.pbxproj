@@ -27,6 +27,8 @@
 		4B42965A2ED4476F0033F6D0 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4296592ED4476F0033F6D0 /* RatingView.swift */; };
 		4B688A872ECEDA9B00CCF308 /* iTourSwiftDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B688A862ECEDA9B00CCF308 /* iTourSwiftDataBootCamp.swift */; };
 		4B688A8F2ECF122500CCF308 /* EditDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B688A8E2ECF122500CCF308 /* EditDestination.swift */; };
+		4BD470502ED9898300DC06FC /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4704F2ED9898300DC06FC /* Quotes.swift */; };
+		4BD470522ED98AA300DC06FC /* QuotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD470512ED98AA300DC06FC /* QuotesListView.swift */; };
 		4BFAAFF02D4F3CFA000513F4 /* GaugeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAAFEF2D4F3CF7000513F4 /* GaugeBootcamp.swift */; };
 		4BFCF2892D6056FF000F5A31 /* StateObjectbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCF2882D6056FF000F5A31 /* StateObjectbootcamp.swift */; };
 		730C82052EBB1FB000F9F9AD /* SwiftConcurrencyRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C82042EBB1FAF00F9F9AD /* SwiftConcurrencyRefreshable.swift */; };
@@ -65,6 +67,8 @@
 		4B688A862ECEDA9B00CCF308 /* iTourSwiftDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTourSwiftDataBootCamp.swift; sourceTree = "<group>"; };
 		4B688A8E2ECF122500CCF308 /* EditDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestination.swift; sourceTree = "<group>"; };
 		4B91E8CC2C54149900AF1281 /* WeatherBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBootcamp.swift; sourceTree = "<group>"; };
+		4BD4704F2ED9898300DC06FC /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		4BD470512ED98AA300DC06FC /* QuotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListView.swift; sourceTree = "<group>"; };
 		4BD65C612BC26D800062EABE /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		4BD65C672BC2B27B0062EABE /* ShapeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBootcamp.swift; sourceTree = "<group>"; };
 		4BF32B072B85BA0F00875D8C /* hello_word_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hello_word_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,8 +209,10 @@
 				73D12CF82ED5CFA1002A3307 /* BookList.swift */,
 				73F676E62ED1DEC700B81D9B /* BookAddView.swift */,
 				4B4296572ED43BED0033F6D0 /* BooKEditView.swift */,
+				4BD470512ED98AA300DC06FC /* QuotesListView.swift */,
 				4B4296592ED4476F0033F6D0 /* RatingView.swift */,
 				7364C6422ED1B30B009AEA05 /* Book.swift */,
+				4BD4704F2ED9898300DC06FC /* Quotes.swift */,
 				73D12CF62ED5B1C0002A3307 /* PreviewBooks.swift */,
 			);
 			path = SwiftData_3;
@@ -287,6 +293,7 @@
 				4B2D60E32EBC540800D1C0DE /* SwiftCombinePublishers.swift in Sources */,
 				4B688A8F2ECF122500CCF308 /* EditDestination.swift in Sources */,
 				4B0917282EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift in Sources */,
+				4BD470522ED98AA300DC06FC /* QuotesListView.swift in Sources */,
 				4B3444A12C80923B009AD3D3 /* DataModel.swift in Sources */,
 				7364C6452ED1B377009AEA05 /* BookListView.swift in Sources */,
 				732623B02EB8A0820066DBC0 /* SwiftConcurrencyActor.swift in Sources */,
@@ -303,6 +310,7 @@
 				4B3444A62C80923B009AD3D3 /* ShapeBootcamp.swift in Sources */,
 				7391CE752E9CED9100DEC7E0 /* BindableBootcamp.swift in Sources */,
 				B66B2F432DEAE67C008F2599 /* GeometryReaderBootcamp.swift in Sources */,
+				4BD470502ED9898300DC06FC /* Quotes.swift in Sources */,
 				4B3444A72C80923B009AD3D3 /* WeatherBootcamp.swift in Sources */,
 				7364C6402ED1B2A9009AEA05 /* iBookSwiftDataBootCamp.swift in Sources */,
 				4BFAAFF02D4F3CFA000513F4 /* GaugeBootcamp.swift in Sources */,

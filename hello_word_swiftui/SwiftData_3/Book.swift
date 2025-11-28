@@ -20,6 +20,8 @@ class Book {
     var rating: Int?
     var status: Status.RawValue
     var recommendedBy: String = ""
+    @Relationship(deleteRule: .cascade)
+    var quotes: [Quote]?
     
     init(
         title: String = "",
@@ -30,7 +32,8 @@ class Book {
         synopsis: String = "",
         rating: Int? = nil,
         status: Status = .onShelf,
-        recommendedBy: String = ""
+        recommendedBy: String = "",
+        quotes: [Quote] = []
     ) {
         self.title = title
         self.author = author
@@ -41,6 +44,7 @@ class Book {
         self.rating = rating
         self.status = status.rawValue
         self.recommendedBy = recommendedBy
+        self.quotes = quotes
     }
     
     var icon: Image {
