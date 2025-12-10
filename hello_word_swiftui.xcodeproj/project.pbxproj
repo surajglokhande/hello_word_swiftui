@@ -31,6 +31,11 @@
 		4BD470522ED98AA300DC06FC /* QuotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD470512ED98AA300DC06FC /* QuotesListView.swift */; };
 		4BFAAFF02D4F3CFA000513F4 /* GaugeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFAAFEF2D4F3CF7000513F4 /* GaugeBootcamp.swift */; };
 		4BFCF2892D6056FF000F5A31 /* StateObjectbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCF2882D6056FF000F5A31 /* StateObjectbootcamp.swift */; };
+		4BFF63172EE6ABA200EFC5DE /* NamespaceBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF63162EE6ABA200EFC5DE /* NamespaceBootcamp.swift */; };
+		4BFF631C2EE6ABC000EFC5DE /* AttachmentInspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF63182EE6ABC000EFC5DE /* AttachmentInspectorView.swift */; };
+		4BFF631D2EE6ABC000EFC5DE /* CommonGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF63192EE6ABC000EFC5DE /* CommonGestures.swift */; };
+		4BFF631E2EE6ABC000EFC5DE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF631B2EE6ABC000EFC5DE /* Models.swift */; };
+		4BFF631F2EE6ABC000EFC5DE /* EmbededImageAttachmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF631A2EE6ABC000EFC5DE /* EmbededImageAttachmentView.swift */; };
 		730C82052EBB1FB000F9F9AD /* SwiftConcurrencyRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C82042EBB1FAF00F9F9AD /* SwiftConcurrencyRefreshable.swift */; };
 		730C82072EBB231600F9F9AD /* SwiftConcurrencyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C82062EBB231600F9F9AD /* SwiftConcurrencyBootcamp.swift */; };
 		732623B02EB8A0820066DBC0 /* SwiftConcurrencyActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732623AF2EB8A0670066DBC0 /* SwiftConcurrencyActor.swift */; };
@@ -77,6 +82,11 @@
 		4BF32B132B85BA1200875D8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BFAAFEF2D4F3CF7000513F4 /* GaugeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeBootcamp.swift; sourceTree = "<group>"; };
 		4BFCF2882D6056FF000F5A31 /* StateObjectbootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectbootcamp.swift; sourceTree = "<group>"; };
+		4BFF63162EE6ABA200EFC5DE /* NamespaceBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamespaceBootcamp.swift; sourceTree = "<group>"; };
+		4BFF63182EE6ABC000EFC5DE /* AttachmentInspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentInspectorView.swift; sourceTree = "<group>"; };
+		4BFF63192EE6ABC000EFC5DE /* CommonGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonGestures.swift; sourceTree = "<group>"; };
+		4BFF631A2EE6ABC000EFC5DE /* EmbededImageAttachmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbededImageAttachmentView.swift; sourceTree = "<group>"; };
+		4BFF631B2EE6ABC000EFC5DE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		730C82042EBB1FAF00F9F9AD /* SwiftConcurrencyRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyRefreshable.swift; sourceTree = "<group>"; };
 		730C82062EBB231600F9F9AD /* SwiftConcurrencyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyBootcamp.swift; sourceTree = "<group>"; };
 		732623AF2EB8A0670066DBC0 /* SwiftConcurrencyActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyActor.swift; sourceTree = "<group>"; };
@@ -172,11 +182,16 @@
 				7391CE762E9CEE0B00DEC7E0 /* RenderObservableBootcamp.swift */,
 				7391CE772E9CEE0B00DEC7E0 /* RenderObservableObjectBootcamp.swift */,
 				7391CE742E9CED9100DEC7E0 /* BindableBootcamp.swift */,
+				4BFF63162EE6ABA200EFC5DE /* NamespaceBootcamp.swift */,
 				4BF32B102B85BA1200875D8C /* Assets.xcassets */,
 				4BF32B122B85BA1200875D8C /* Preview Content */,
 				4B3C593E2C54B40F00FB3298 /* Protocol.swift */,
 				4B3C59402C54D22400FB3298 /* CommonView.swift */,
 				7391CE7A2E9CEE8C00DEC7E0 /* Extension.swift */,
+				4BFF63182EE6ABC000EFC5DE /* AttachmentInspectorView.swift */,
+				4BFF63192EE6ABC000EFC5DE /* CommonGestures.swift */,
+				4BFF631A2EE6ABC000EFC5DE /* EmbededImageAttachmentView.swift */,
+				4BFF631B2EE6ABC000EFC5DE /* Models.swift */,
 			);
 			path = hello_word_swiftui;
 			sourceTree = "<group>";
@@ -307,6 +322,7 @@
 				4B4296582ED43BED0033F6D0 /* BooKEditView.swift in Sources */,
 				4B09172A2EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift in Sources */,
 				4B3444A52C80923B009AD3D3 /* TextBootcamp.swift in Sources */,
+				4BFF63172EE6ABA200EFC5DE /* NamespaceBootcamp.swift in Sources */,
 				4B3444A62C80923B009AD3D3 /* ShapeBootcamp.swift in Sources */,
 				7391CE752E9CED9100DEC7E0 /* BindableBootcamp.swift in Sources */,
 				B66B2F432DEAE67C008F2599 /* GeometryReaderBootcamp.swift in Sources */,
@@ -323,6 +339,10 @@
 				4B688A872ECEDA9B00CCF308 /* iTourSwiftDataBootCamp.swift in Sources */,
 				4B2D60E12EBC53E300D1C0DE /* SwiftCombineBootcamp.swift in Sources */,
 				4B3444A92C80923B009AD3D3 /* Protocol.swift in Sources */,
+				4BFF631C2EE6ABC000EFC5DE /* AttachmentInspectorView.swift in Sources */,
+				4BFF631D2EE6ABC000EFC5DE /* CommonGestures.swift in Sources */,
+				4BFF631E2EE6ABC000EFC5DE /* Models.swift in Sources */,
+				4BFF631F2EE6ABC000EFC5DE /* EmbededImageAttachmentView.swift in Sources */,
 				4B3444AA2C80923B009AD3D3 /* CommonView.swift in Sources */,
 				73F676E72ED1DEC700B81D9B /* BookAddView.swift in Sources */,
 				7364C6492ED1B418009AEA05 /* Destination.swift in Sources */,
