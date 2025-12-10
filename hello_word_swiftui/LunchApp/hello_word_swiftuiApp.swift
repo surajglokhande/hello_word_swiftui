@@ -25,7 +25,7 @@ struct hello_word_swiftuiApp: App {
             //SwiftConcurrencyBootcamp()
             //iTourSwiftDataBootCamp()
             //iBookSwiftDataBootCamp()
-            SwiftCombineSubscriberAssign()
+            //SwiftCombineSubscriberAssign()
             NamespaceBootcamp()
         }
     }
