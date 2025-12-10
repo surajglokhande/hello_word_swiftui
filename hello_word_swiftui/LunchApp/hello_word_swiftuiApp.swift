@@ -24,7 +24,8 @@ struct hello_word_swiftuiApp: App {
             //BindableBootcamp()
             //SwiftConcurrencyBootcamp()
             //iTourSwiftDataBootCamp()
-            iBookSwiftDataBootCamp()
+            //iBookSwiftDataBootCamp()
+            SwiftCombineSubscriberAssign()
         }
     }
 }

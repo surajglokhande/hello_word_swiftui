@@ -10,7 +10,7 @@
 		4B0917282EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0917272EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift */; };
 		4B09172A2EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0917292EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift */; };
 		4B2D60E12EBC53E300D1C0DE /* SwiftCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D60E02EBC53E300D1C0DE /* SwiftCombineBootcamp.swift */; };
-		4B2D60E32EBC540800D1C0DE /* SwiftCombinePublishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D60E22EBC540800D1C0DE /* SwiftCombinePublishers.swift */; };
+		4B2D60E32EBC540800D1C0DE /* SwiftCombineSubscriberAssign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D60E22EBC540800D1C0DE /* SwiftCombineSubscriberAssign.swift */; };
 		4B3444A12C80923B009AD3D3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3444952C80866E009AD3D3 /* DataModel.swift */; };
 		4B3444A22C80923B009AD3D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3444992C8086D6009AD3D3 /* ContentView.swift */; };
 		4B3444A32C80923B009AD3D3 /* DocumentGroupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3444972C8086A9009AD3D3 /* DocumentGroupApp.swift */; };
@@ -55,7 +55,7 @@
 		4B0917292EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencySendable.swift; sourceTree = "<group>"; };
 		4B0F18892C58F3A40037CF7F /* PropertyWrapperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperBootcamp.swift; sourceTree = "<group>"; };
 		4B2D60E02EBC53E300D1C0DE /* SwiftCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCombineBootcamp.swift; sourceTree = "<group>"; };
-		4B2D60E22EBC540800D1C0DE /* SwiftCombinePublishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCombinePublishers.swift; sourceTree = "<group>"; };
+		4B2D60E22EBC540800D1C0DE /* SwiftCombineSubscriberAssign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCombineSubscriberAssign.swift; sourceTree = "<group>"; };
 		4B3444952C80866E009AD3D3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		4B3444972C8086A9009AD3D3 /* DocumentGroupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentGroupApp.swift; sourceTree = "<group>"; };
 		4B3444992C8086D6009AD3D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -290,7 +290,7 @@
 				730C82072EBB231600F9F9AD /* SwiftConcurrencyBootcamp.swift in Sources */,
 				7391CE782E9CEE0C00DEC7E0 /* RenderObservableObjectBootcamp.swift in Sources */,
 				7391CE792E9CEE0C00DEC7E0 /* RenderObservableBootcamp.swift in Sources */,
-				4B2D60E32EBC540800D1C0DE /* SwiftCombinePublishers.swift in Sources */,
+				4B2D60E32EBC540800D1C0DE /* SwiftCombineSubscriberAssign.swift in Sources */,
 				4B688A8F2ECF122500CCF308 /* EditDestination.swift in Sources */,
 				4B0917282EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift in Sources */,
 				4BD470522ED98AA300DC06FC /* QuotesListView.swift in Sources */,
