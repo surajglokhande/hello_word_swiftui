@@ -26,7 +26,10 @@ struct hello_word_swiftuiApp: App {
             //iTourSwiftDataBootCamp()
             //iBookSwiftDataBootCamp()
             //NamespaceBootcamp()
+            //SwiftCombineSubscriberAssign()
+            //NamespaceBootcamp()
             ArrayProgramBootcamp()
+            
         }
     }
 }
