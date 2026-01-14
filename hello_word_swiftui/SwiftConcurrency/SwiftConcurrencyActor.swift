@@ -85,7 +85,7 @@ struct HomeView: View {
             
             //required await and Task block to execute
             Task {
-                let thre = await manager.getRandomStringOne()
+                let three = await manager.getRandomStringOne()
             }
         }
         .onReceive(timer) { _ in

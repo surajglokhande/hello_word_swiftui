@@ -9,6 +9,7 @@ import SwiftUI
 import SwiftData
 
 @Model
+@MainActor
 class Book {
     var title: String
     var author: String

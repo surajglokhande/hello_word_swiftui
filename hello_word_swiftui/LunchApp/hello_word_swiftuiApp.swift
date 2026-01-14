@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct hello_word_swiftuiApp: App {
+struct hello_word_swiftuiApp: App {    
     var body: some Scene {
         WindowGroup {
 			//TextBootcamp()
@@ -27,8 +27,8 @@ struct hello_word_swiftuiApp: App {
             //iBookSwiftDataBootCamp()
             //NamespaceBootcamp()
             //SwiftCombineSubscriberAssign()
-            ArrayProgramBootcamp()
-            
+            //ArrayProgramBootcamp()
+            PhotonProgramOne(viewModel: TodoViewModel(network: NetworkManager()))
         }
     }
 }

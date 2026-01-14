@@ -40,6 +40,7 @@
 		730C82052EBB1FB000F9F9AD /* SwiftConcurrencyRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C82042EBB1FAF00F9F9AD /* SwiftConcurrencyRefreshable.swift */; };
 		730C82072EBB231600F9F9AD /* SwiftConcurrencyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C82062EBB231600F9F9AD /* SwiftConcurrencyBootcamp.swift */; };
 		732623B02EB8A0820066DBC0 /* SwiftConcurrencyActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732623AF2EB8A0670066DBC0 /* SwiftConcurrencyActor.swift */; };
+		735D91072F07741F00964CAA /* PhotonProgramOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735D91062F07741F00964CAA /* PhotonProgramOne.swift */; };
 		7364C6402ED1B2A9009AEA05 /* iBookSwiftDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7364C63F2ED1B2A9009AEA05 /* iBookSwiftDataBootCamp.swift */; };
 		7364C6432ED1B30B009AEA05 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7364C6422ED1B30B009AEA05 /* Book.swift */; };
 		7364C6452ED1B377009AEA05 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7364C6442ED1B377009AEA05 /* BookListView.swift */; };
@@ -92,6 +93,7 @@
 		730C82042EBB1FAF00F9F9AD /* SwiftConcurrencyRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyRefreshable.swift; sourceTree = "<group>"; };
 		730C82062EBB231600F9F9AD /* SwiftConcurrencyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyBootcamp.swift; sourceTree = "<group>"; };
 		732623AF2EB8A0670066DBC0 /* SwiftConcurrencyActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyActor.swift; sourceTree = "<group>"; };
+		735D91062F07741F00964CAA /* PhotonProgramOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotonProgramOne.swift; sourceTree = "<group>"; };
 		7364C63F2ED1B2A9009AEA05 /* iBookSwiftDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBookSwiftDataBootCamp.swift; sourceTree = "<group>"; };
 		7364C6422ED1B30B009AEA05 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		7364C6442ED1B377009AEA05 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
@@ -113,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				4B2D60E02EBC53E300D1C0DE /* SwiftCombineBootcamp.swift */,
-				4B2D60E22EBC540800D1C0DE /* SwiftCombinePublishers.swift */,
+				4B2D60E22EBC540800D1C0DE /* SwiftCombineSubscriberAssign.swift */,
 			);
 			path = SwiftCombine;
 			sourceTree = "<group>";
@@ -186,6 +188,7 @@
 				7391CE742E9CED9100DEC7E0 /* BindableBootcamp.swift */,
 				4BFF63162EE6ABA200EFC5DE /* NamespaceBootcamp.swift */,
 				4B7ADF492EEA8C5C00F3BAFB /* ArrayProgramBootcamp.swift */,
+				735D91062F07741F00964CAA /* PhotonProgramOne.swift */,
 				4BF32B102B85BA1200875D8C /* Assets.xcassets */,
 				4BF32B122B85BA1200875D8C /* Preview Content */,
 				4B3C593E2C54B40F00FB3298 /* Protocol.swift */,
@@ -309,7 +312,7 @@
 				7391CE782E9CEE0C00DEC7E0 /* RenderObservableObjectBootcamp.swift in Sources */,
 				7391CE792E9CEE0C00DEC7E0 /* RenderObservableBootcamp.swift in Sources */,
 				4B7ADF4A2EEA8C5C00F3BAFB /* ArrayProgramBootcamp.swift in Sources */,
-				4B2D60E32EBC540800D1C0DE /* SwiftCombinePublishers.swift in Sources */,
+				4B2D60E32EBC540800D1C0DE /* SwiftCombineSubscriberAssign.swift in Sources */,
 				4B2D60E32EBC540800D1C0DE /* SwiftCombineSubscriberAssign.swift in Sources */,
 				4B688A8F2ECF122500CCF308 /* EditDestination.swift in Sources */,
 				4B0917282EB9AF9F0003ACC7 /* SwiftConcurrencyGlobalActor.swift in Sources */,
@@ -324,6 +327,7 @@
 				4B42965A2ED4476F0033F6D0 /* RatingView.swift in Sources */,
 				730C82052EBB1FB000F9F9AD /* SwiftConcurrencyRefreshable.swift in Sources */,
 				4B3444A42C80923B009AD3D3 /* hello_word_swiftuiApp.swift in Sources */,
+				735D91072F07741F00964CAA /* PhotonProgramOne.swift in Sources */,
 				4B4296582ED43BED0033F6D0 /* BooKEditView.swift in Sources */,
 				4B09172A2EB9ED0E0003ACC7 /* SwiftConcurrencySendable.swift in Sources */,
 				4B3444A52C80923B009AD3D3 /* TextBootcamp.swift in Sources */,
